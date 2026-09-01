@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #081b29;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25rem;
+    padding: 20px;
+    background-color:  #06131d;
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+}
+
+.nav-left {
+   text-align: left;
+   margin-left: 15px;
+}
+
+.nav-links { 
+   list-style: none;
+   display: flex;
+   gap: 15px;
+   margin-right: 15px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+
+   animation: fadeIn 1.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0%;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 100%;
+        transform: translateY(0);
+    }
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    margin-left: 25%;
+    font-size: 2.5rem;
+    max-width: 650px;
+}
+
+.info-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.video-container {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    /* background-color: green; */
+    align-content: center;
+}
+
+.video-header{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.videos {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    gap: 10%;
+}
+
+video {
+    max-width: 350px;
+    max-height: 500px;
+    border-radius: 8px;
+    border: 2px solid rgb(173, 173, 173);
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+
+footer {
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid white;    
+    background-color: #06131d;
+}
