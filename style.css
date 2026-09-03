@@ -134,6 +134,7 @@ footer {
 
     .info {
         margin: auto;
+        margin-top: 50px;
         padding: 20px;
         max-width: 350px;
         font-size: 2rem;
