@@ -84,7 +84,6 @@ header {
     width: 100%;
     height: auto;
     padding: 20px;
-    /* background-color: green; */
     align-content: center;
 }
 
@@ -126,4 +125,15 @@ footer {
     text-align: center;
     border-top: 1px solid white;    
     background-color: #06131d;
+}
+
+@media (max-width: 600px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+
+
+    .videos {
+        height: 55%;
+    }
 }
