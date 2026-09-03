@@ -133,9 +133,17 @@ footer {
     }
 
     .info {
+        display: flex;
+        justify-content: center;
+        align-content: center;
         margin: auto;
         max-width: 350px;
         font-size: 2rem;
+
+    }
+
+    .video-container {
+        width: auto;
     }
 
     .videos {
