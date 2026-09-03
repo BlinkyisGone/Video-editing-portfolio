@@ -133,16 +133,18 @@ footer {
     }
 
     .info {
-        display: flex;
-        justify-content: center;
-        align-content: center;
         margin: auto;
+        padding: 20px;
         max-width: 350px;
         font-size: 2rem;
+    }
 
+    .video-header {
+        font-size: 1.5rem;
     }
 
     .video-container {
+        height: 100%;
         width: auto;
     }
 
