@@ -125,9 +125,6 @@ footer {
     background-color: #06131d;
 }
 
-p {
-    font-size: .75rem;
-}
 
 @media (max-width: 600px) {
     .container {
